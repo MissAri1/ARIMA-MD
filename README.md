@@ -1,6 +1,7 @@
 <p align="center"><h1>ARIMA-MD</h1><br> </p>
 
 ![banner](Arima.jpg)
+![FCF6F1C9-1614-4C6B-9686-B7D0E949E3B7](https://github.com/user-attachments/assets/c7abc40a-2974-43b0-9cca-565720ed74c9)
 
 
 

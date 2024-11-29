@@ -1,6 +1,6 @@
 const util = require('util');
 const fs = require('fs-extra');
-const { zokou } = require(__dirname + "/../framework/zokou");
+const { arima } = require(__dirname + "/../framework/arima");
 const { format, styletext } = require(__dirname + "/../framework/mesfonctions");
 //const {police}=require(__dirname+"/../framework/mesfonctions")
 const os = require("os");
@@ -22,12 +22,12 @@ zokou({ nomCom: "menu", categorie: "Général" }, async (dest, zk, commandeOptio
     const date = moment.tz("asia/karachi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = "  ╩═══ * Ƶ𝓞ｋØ𝓊 * ╩═══\n\n";
+    let menuMsg = "  ╩═══ * 𝚫𝚪𝚰𝚳𝚫 * ╩═══\n\n";
     /*menuMsg+=`
     
     
     
-    Owner : ${s.NOM_OWNER} \n       || Commandes : ${cm.length} \n        || Date : ${date}\n || Heure : ${temps} \n || Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}\n || Plateforme : ${os.platform()}\n || Developpeur : Djalega++ \n\n ╰────────────────`;
+    Owner : ${s.NOM_OWNER} \n       || Commandes : ${cm.length} \n        || Date : ${date}\n || Heure : ${temps} \n || Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}\n || Plateforme : ${os.platform()}\n || Developpeur : Arima \n\n ╰────────────────`;
     
     
     
@@ -44,7 +44,7 @@ zokou({ nomCom: "menu", categorie: "Général" }, async (dest, zk, commandeOptio
    ||      Date : ${date}
    ||      Heure : ${temps}
    ||      Mémoire : ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}                   {Plateforme : ${os.platform()}
-   ||  Développeurs : Djalega++||Luffy
+   ||  Développeurs : Arima||Forger
    ||
    ╚════ ▓▓ ࿇ ▓▓ ════╝`;*/
     menuMsg += `
@@ -57,7 +57,7 @@ zokou({ nomCom: "menu", categorie: "Général" }, async (dest, zk, commandeOptio
 ║    Heure : ${temps}
 ║    Mémoire : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ║    Plateforme : ${os.platform()}
-║    Développeurs : Djalega++||Luffy
+║    Développeurs : Arima||Forger
 ╚════--------------- \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
@@ -68,10 +68,10 @@ zokou({ nomCom: "menu", categorie: "Général" }, async (dest, zk, commandeOptio
             menuMsg += "\t  ║ " + cmd + "" + " \n";
         }
     }
-    //  var link = "https://wallpapercave.com/uwp/uwp3860299.jpeg";
+    //  var link = "https://wallpapercave.com/download/uwp-4570967";
     var link = s.IMAGE_MENU;
     try {
-        zk.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "by Djalega++" }, { quoted: ms });
+        ar.sendMessage(dest, { image: { url: link }, caption: menuMsg, footer: "by Arima" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -112,12 +112,12 @@ module.exports.commande =()=>
 
 var tt=[]
 
- async  function execute(dest,zok,commandeOptions?)
+ async  function execute(dest,Ari,commandeOptions?)
   {
 
-    var link = "https://wallpapercave.com/uwp/uwp3860299.jpeg"
+    var link = "https://wallpapercave.com/download/uwp-4570967"
     // var listCom =listeCommande()
-    let msg= "  ╩═══ * Ƶ𝓞ｋØ𝓊 * ╩═══\n\n"
+    let msg= "  ╩═══ * 𝚫𝚪𝚰𝚳𝚫 * ╩═══\n\n"
 
 
 //const listeCommande= async ()=> {
@@ -206,7 +206,7 @@ var tt=[]
         msg+=+'\n'+comm
       }}
 
-    await zok.sendMessage(dest,{image :{url:link},caption:msg+txt});
+    await Ari.sendMessage(dest,{image :{url:link},caption:msg+txt});
 
     */
 //   

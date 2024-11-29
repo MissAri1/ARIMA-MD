@@ -5,7 +5,7 @@
 
 
 
-## Obtenir ARIMA-MD 🛠️
+## ARIMA-MD 😊
 
 1. Cliquez sur **[Fork](https://github.com/MissAri1/ARIMA-MD)/** 
 

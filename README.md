@@ -1,38 +1,20 @@
-<p align="center"><h1>Zokou-2.0 🚀</h1><br> </p>
+<p align="center"><h1>ARIMA-MD</h1><br> </p>
 
-![banner](Zokou.jpg)
+![banner](Arima.jpg)
 
-Zokou est un bot multi-devices conçu pour enrichir vos conversations WhatsApp avec des fonctionnalités utiles et amusantes. Qu'il s'agisse de gérer des fichiers, d'interagir avec des stickers ou de faciliter la gestion de groupe, Zokou est là pour vous aider ! 🎉💬
 
-## Fonctionnalités Principales ✨
 
-- **Téléchargement de Fichiers :** Zokou peut télécharger des fichiers audio et vidéo à partir de liens que vous lui envoyez, pour que vous puissiez les partager facilement avec vos contacts. 🎶📹
+## Obtenir ARIMA-MD 🛠️
 
-- **Exportation de Stickers :** Vous pouvez exporter des stickers de Telegram et les utiliser dans vos conversations WhatsApp en les envoyant simplement à Zokou. 😄✨
-
-- **Gestion de Groupe :** Zokou offre des fonctionnalités de gestion de groupe, comme l'ajout ou la suppression de membres, la configuration de règles et d'autres paramètres. 👥📋
-
-- **Text to Image :** Les meilleurs logos ont été sélectionnés pour votre confort. 🖼️🎨
-
-## Fonctionnalités Ludiques 🎉
-
-- **Blagues et Devinettes :** Zokou est équipé d'une collection de blagues et de devinettes pour égayer vos conversations. 😂🤔
-
-- **Citations Inspirantes :** Recevez des citations inspirantes pour vous motiver au quotidien. 💪🌟
-
-## Obtenir Zokou 🛠️
-
-1. Cliquez sur **[Fork](https://github.com/Luffy2ndAccount/zokou-2.0-versionVF/fork)** afin de copier le repo sur votre compte GitHub. N'oubliez pas d'ajouter une étoile 🌟 pour encourager les développeurs !
+1. Cliquez sur **[Fork](https://github.com/Luffy2ndAccount/zokou-2.0-versionVF/fork)** 
 
 2. Obtenez une session du bot :  
-   - [Session-1](https://zkscan.onrender.com)  
-   - [Session-2](https://zokouscan-din3.onrender.com)
+   - [Session-1](https://Arscan.onrender.com)  
+   - [Session-2](https://Arimascan-din3.onrender.com)
 
-## Déploiement 🚀
 
-- **Déploiement sur Heroku** :
-  1. Si vous ne disposez pas de compte **Heroku**, cliquez [**ici**](https://id.heroku.com/login) pour en créer un.
-  2. Cliquez [**ici**](https://dashboard.heroku.com/new?template=https://github.com/Luffy2ndAccount/zokou-2.0-versionVF) pour déployer le bot sur **Heroku**.
+     ## Déploiement 
+
 
 - **Déploiement sur Koyeb** :
   1. Si vous n'avez pas de compte **Koyeb**, cliquez [**ici**](https://dashboard.koyeb.com/signup) pour en créer un.
@@ -53,13 +35,13 @@ Zokou est un bot multi-devices conçu pour enrichir vos conversations WhatsApp a
      LECTURE_AUTO_STATUS=oui
      TELECHARGER_AUTO_STATUS=oui
      NOM_BOT=Zokou-MD
-     LIENS_MENU=https://wallpapercave.com/uwp/uwp3943464.jpeg
+     LIENS_MENU=https:[//wallpapercave.com/uwp/uwp3943464.jpeg](https://wallpapercave.com/download/uwp-4570967)
      PM_PERMIT=non
-     MODE_PUBLIC=oui
+     MODE_PUBLIC=non
      ETAT=1
-     SESSION_ID=zokk
-     NOM_OWNER=Djalega++
-     NUMERO_OWNER=22891733300
+     SESSION_ID=Ari
+     NOM_OWNER=༺𒋲♱𝚫𝚪𝚰𝚳𝚫♱𒋲༻ 
+     NUMERO_OWNER=237620934302
      WARN_COUNT=3
      STARTING_BOT_MESSAGE=oui
      ANTI_VUE_UNIQUE=oui

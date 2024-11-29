@@ -10,7 +10,7 @@
 1. Cliquez sur **[Fork](https://github.com/MissAri1/ARIMA-MD)/** 
 
 3. Obtenez une session du bot :  
-   - [Session-1](https://Arscan.onrender.com)  
+   - [Session-1](https://Zokouscan-din3.onrender.com)
    - [Session-2](https://Arimascan-din3.onrender.com)
 
 
